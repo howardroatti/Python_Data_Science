@@ -8,7 +8,7 @@ import psycopg2
 mysqldb = mysql.connector.connect(
   host="localhost",
   user="root",
-  password="h0w4rd",
+  password="XXXXXX",
   database="alfa"
 )
 

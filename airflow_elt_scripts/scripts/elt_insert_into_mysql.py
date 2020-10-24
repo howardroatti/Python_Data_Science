@@ -11,7 +11,7 @@ def insertIntoTables(senha):
         connection = mysql.connector.connect(host='localhost',
 					     database='alfa',
 					     user='root',
-					     password='h0w4rd')
+					     password='XXXXXXX')
         cursor = connection.cursor()
         mysql_insert_query = """INSERT INTO identificacao(DSCSENHA)
                                                    VALUES(%s)"""
